@@ -23,6 +23,7 @@
   "author": "Ivan <ioji@inbox.ru>",
   "license": "ISC",
   "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
     "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.6",
     "on-headers": ">=1.1.0",
@@ -46,7 +47,11 @@
     ],
     "overrides": {
       "qs": "^6.15.0",
-      "immutable@>=5.0.0 <5.1.5": ">=5.1.5"
+      "immutable@>=5.0.0 <5.1.5": ">=5.1.5",
+      "serialize-javascript@<7.0.5": ">=7.0.5",
+      "path-to-regexp@<0.1.13": ">=0.1.13",
+      "picomatch@<2.3.2": ">=2.3.2",
+      "picomatch@>=4.0.0 <4.0.4": ">=4.0.4"
     }
   }
 }
