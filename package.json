@@ -2,6 +2,7 @@
   "name": "audiomaster",
   "version": "1.0.0",
   "description": "audiomaster portfolio model",
+  "packageManager": "pnpm@10.33.0",
   "main": "index.js",
   "repository": {
     "url": "git+https://https://github.com/HardTurn/audiomaster.git"
@@ -37,7 +38,7 @@
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^2.10.2",
     "reset-css": "^5.0.2",
-    "sass": "^1.98.0",
+    "sass": "^1.99.0",
     "sass-loader": "^16.0.7",
     "webpack-dev-server": "^5.2.3"
   },
