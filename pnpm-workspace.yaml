@@ -1,0 +1,13 @@
+allowBuilds:
+  '@parcel/watcher': set this to true or false
+minimumReleaseAgeExclude:
+  - webpack@5.107.2
+  - fast-uri@3.1.1
+  - fast-uri@3.1.2
+  - brace-expansion@5.0.6
+  - ws@8.20.1
+  - uuid@11.1.1
+  - qs@6.15.2
+overrides:
+  qs@>=6.11.1 <=6.15.1: ^6.15.2
+  uuid@<11.1.1: ^11.1.1

@@ -2,7 +2,7 @@
   "name": "audiomaster",
   "version": "1.0.0",
   "description": "audiomaster portfolio model",
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@11.3.0",
   "main": "index.js",
   "repository": {
     "url": "git+https://https://github.com/HardTurn/audiomaster.git"
@@ -27,9 +27,9 @@
     "clean-webpack-plugin": "^4.0.0",
     "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.7",
-    "on-headers": ">=1.1.0",
-    "qs": "^6.15.1",
-    "webpack": "^5.106.2",
+    "on-headers": "^1.1.0",
+    "qs": "^6.15.2",
+    "webpack": "^5.107.2",
     "webpack-cli": "^7.0.2"
   },
   "dependencies": {
@@ -38,24 +38,8 @@
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^2.10.2",
     "reset-css": "^5.0.2",
-    "sass": "^1.99.0",
-    "sass-loader": "^16.0.7",
-    "webpack-dev-server": "^5.2.3"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@parcel/watcher"
-    ],
-    "overrides": {
-      "qs": "^6.15.1",
-      "immutable@>=5.0.0 <5.1.5": ">=5.1.5",
-      "serialize-javascript@<7.0.5": ">=7.0.5",
-      "path-to-regexp@<0.1.13": ">=0.1.13",
-      "picomatch@<2.3.2": ">=2.3.2",
-      "picomatch@>=4.0.0 <4.0.4": ">=4.0.4",
-      "follow-redirects@<=1.15.11": ">=1.16.0",
-      "uuid@<14.0.0": ">=14.0.0",
-      "postcss@<8.5.10": ">=8.5.10"
-    }
+    "sass": "^1.100.0",
+    "sass-loader": "^17.0.0",
+    "webpack-dev-server": "^5.2.4"
   }
 }
