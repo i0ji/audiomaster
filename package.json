@@ -2,7 +2,7 @@
   "name": "audiomaster",
   "version": "1.0.0",
   "description": "audiomaster portfolio model",
-  "packageManager": "pnpm@11.21.0",
+  "packageManager": "pnpm@11.22.0",
   "main": "index.js",
   "repository": {
     "url": "git+https://https://github.com/HardTurn/audiomaster.git"
