@@ -2,13 +2,14 @@
   "name": "audiomaster",
   "version": "1.0.0",
   "description": "audiomaster portfolio model",
+  "packageManager": "pnpm@12.18.0",
   "main": "index.js",
   "repository": {
     "url": "git+https://https://github.com/HardTurn/audiomaster.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --hot --mode development",
     "dev": "webpack --mode development",
     "prod": "webpack --mode production",
@@ -32,7 +33,10 @@
   "dependencies": {
     "copy-webpack-plugin": "^14.0.0",
     "css-loader": "^7.1.5",
+    "copy-webpack-plugin": "^14.0.0",
+    "css-loader": "^7.1.5",
     "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.10.2",
     "mini-css-extract-plugin": "^2.10.2",
     "reset-css": "^5.0.2",
     "sass": "^1.108.1",
